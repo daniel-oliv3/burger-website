@@ -20,6 +20,60 @@ $light-color: #aaa;
 $border: .2rem solid rgba(255, 255, 255, .3);
 
 
+@mixin title-text($titleSize){
+    font-size: $titleSize;
+    text-transform: uppercase;
+    color: $white;
+}
+
+@mixin grap-text($grapSize){
+    font-size: $grapSize;
+    line-height: 2;
+    color: $light-color;
+}
+
+@mixin grid($val){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 2rem;
+}
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track{
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $yellow;
+        border-radius: 5rem;
+    }
+}
+
+
+body {
+    background: url(../img/background.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
