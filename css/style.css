@@ -1,44 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
-
-
-* { 
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
-}
-
-
-
-
-
-
-
-
-
-
+@charset "UTF-8";
+/* ======= Header Section/Seção do cabeçalho ======== */
 /* ======= Responsive/Responsividade ======= */
-@media (max-width: 991px){
-
-    html {
-        font-size: 55%;
-    }
-
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }
 
-@media (max-width: 768px){
-
-
-}
-
-@media (max-width: 450px){
-
-    html {
-        font-size: 50%;
-    }
-
-}
+/*# sourceMappingURL=style.css.map */
