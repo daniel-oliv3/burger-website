@@ -93,6 +93,24 @@ body {
         }
     }
 
+
+    #menu-btn {
+        display: none;
+    }
+
+    .navbar {
+        a {
+            color: $white;
+            font-size: 2rem;
+            margin: 0 2rem;
+
+            &:hover {
+                text-decoration: underline;
+                text-underline-offset: 1rem;
+                color: $yellow;
+            }            
+        }
+    }
 }
 
 
