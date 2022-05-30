@@ -112,9 +112,53 @@ body {
 }
 
 /* ======= Responsive/Responsividade ======= */
+@media (max-width: 1200px) {
+  .header {
+    padding: 3rem;
+  }
+
+  section {
+    padding: 3rem 2rem;
+  }
+}
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+  }
+
+  .header {
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+  .header .logo {
+    transform: translateX(0);
+    left: 3rem;
+  }
+  .header #menu-btn {
+    display: inline-block;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #000;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .navbar a {
+    display: block;
+    margin: 3rem 2rem;
+  }
+  .header .navbar .space {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .home .content h3 {
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 450px) {

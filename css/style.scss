@@ -185,23 +185,69 @@ body {
 
 
 /* ======= Responsive/Responsividade ======= */
-@media (max-width: 991px){
+@media (max-width:1200px){
 
-    html {
-        font-size: 55%;
+    .header{
+       padding:3rem;
     }
-
-}
-
-@media (max-width: 768px){
-
-
-}
-
-@media (max-width: 450px){
-
-    html {
-        font-size: 50%;
+ 
+    section{
+       padding:3rem 2rem;
     }
-
-}    
+ 
+ }
+ 
+ @media (max-width:991px){
+ 
+    html{
+       font-size: 55%;
+    }
+ 
+    .header{
+       justify-content: flex-end;
+       gap:2rem;
+ 
+       .logo{
+          transform: translateX(0);
+          left:3rem;
+       }
+       
+       #menu-btn{
+          display: inline-block;
+       }
+ 
+       .navbar{
+          position: absolute;
+          top:99%; left:0; right:0;
+          background: $black;
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+ 
+          &.active{
+             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          }
+ 
+          a{
+             display: block;
+             margin:3rem 2rem;
+          }
+ 
+          .space{
+             display: none;
+          }
+       }
+    }
+ }
+ 
+ @media (max-width:768px){
+    .home .content h3{
+       font-size: 2.5rem;
+    }
+ }
+ 
+ @media (max-width:450px){
+ 
+    html{
+       font-size: 50%;
+    }
+ 
+ }
