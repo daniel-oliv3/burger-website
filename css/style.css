@@ -111,6 +111,7 @@ body {
   transform: rotate(180deg);
 }
 
+/* ======= Home Section/Seção de inicio ======== */
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {
