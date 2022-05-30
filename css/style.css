@@ -31,9 +31,34 @@ html::-webkit-scrollbar-thumb {
 
 body {
   background: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
 }
 
 /* ======= Header Section/Seção do cabeçalho ======== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #000;
+  padding: 3rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.header .icons {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+.header .icons:hover {
+  color: #eacf4f;
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
   html {
