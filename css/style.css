@@ -107,6 +107,9 @@ body {
   font-size: 1.6rem;
   color: #fff;
 }
+.header .fa-times {
+  transform: rotate(180deg);
+}
 
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
