@@ -110,6 +110,22 @@ body {
                 color: $yellow;
             }            
         }
+
+        .space {
+            display: inline-block;
+            width: 16rem;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        top: 3rem;
+        left: 48.5%;
+        transform: translateX(-50%);
+
+        img {
+            width: 15rem;
+        }
     }
 }
 

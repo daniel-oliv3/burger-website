@@ -71,6 +71,19 @@ body {
   text-underline-offset: 1rem;
   color: #eacf4f;
 }
+.header .navbar .space {
+  display: inline-block;
+  width: 16rem;
+}
+.header .logo {
+  position: absolute;
+  top: 3rem;
+  left: 48.5%;
+  transform: translateX(-50%);
+}
+.header .logo img {
+  width: 15rem;
+}
 
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
