@@ -157,6 +157,26 @@ section {
   padding: 2rem 0;
 }
 
+/* ======= Service Section/Seção de Serviço ======== */
+.service {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+  gap: 2rem;
+}
+.service .box {
+  text-align: center;
+  padding: 2rem;
+}
+.service .box i {
+  height: 7rem;
+  width: 7rem;
+  line-height: 7rem;
+  font-size: 2rem;
+  color: #000;
+  background: #eacf4f;
+  margin-bottom: 1rem;
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {

@@ -210,6 +210,103 @@ section {
 
 
 
+/* ======= Service Section/Seção de Serviço ======== */
+.service {
+    @include grid(3rem);
+
+    .box {
+        text-align: center;
+        padding: 2rem;
+
+        i {
+            height: 7rem;
+            width: 7rem;
+            line-height: 7rem;
+            font-size: 2rem;
+            color: $black;
+            background: $yellow;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
