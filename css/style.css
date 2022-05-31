@@ -36,6 +36,10 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  padding: 3rem 9%;
+}
+
 /* ======= Header Section/Seção do cabeçalho ======== */
 .header {
   position: fixed;
@@ -112,6 +116,32 @@ body {
 }
 
 /* ======= Home Section/Seção de inicio ======== */
+.home {
+  margin-top: 7rem;
+  background: url(../img/home-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .content {
+  max-width: 70rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.home .content img {
+  width: 100%;
+}
+.home .content h3 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.home .content p {
+  font-size: 1.7rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 2rem 0;
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {

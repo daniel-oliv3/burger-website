@@ -167,7 +167,31 @@ section {
 
 
 /* ======= Home Section/Seção de inicio ======== */
+.home {
+    margin-top: 7rem;
+    background: url(../img/home-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 
+    .content {
+        max-width: 70rem;
+        text-align: center;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+
+        h3 {
+            @include title-text(4rem);
+        }
+
+        p {
+            @include grap-text(1.7rem);
+            padding: 2rem 0;
+        }
+    }
+}
 
 
 
