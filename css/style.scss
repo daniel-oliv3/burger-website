@@ -72,6 +72,21 @@ section {
     padding: 3rem 9%;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: $border;
+    color: $white;
+    background: no-repeat;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+
+    &:hover {
+        color: $black;
+        background: $white;
+    }
+}
 
 
 /* ======= Header Section/Seção do cabeçalho ======== */

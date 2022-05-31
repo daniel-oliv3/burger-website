@@ -40,6 +40,21 @@ section {
   padding: 3rem 9%;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  background: no-repeat;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+.btn:hover {
+  color: #000;
+  background: #fff;
+}
+
 /* ======= Header Section/Seção do cabeçalho ======== */
 .header {
   position: fixed;
