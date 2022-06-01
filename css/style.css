@@ -303,16 +303,20 @@ section {
   color: #fff;
 }
 .reviews .box-container .box p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2;
   color: #aaa;
   padding: 1rem 0;
+}
+.reviews .box-container .box .stars {
+  padding-top: 0.5rem;
 }
 .reviews .box-container .box .stars i {
   font-size: 1.7rem;
   color: #eacf4f;
 }
 
+/* ======= Contatcs Section/Seção de Contatos ======== */
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {

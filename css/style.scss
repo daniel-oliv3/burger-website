@@ -346,7 +346,6 @@ section {
 /* ======= Reviews Section/Seção de Comentários ======== */
 .reviews {
 
-
     .box-container {
         @include grid(31rem);
 
@@ -366,11 +365,12 @@ section {
             }
 
             p {
-                @include grap-text(1.5rem);
+                @include grap-text(1.4rem);
                 padding: 1rem 0;
             }
 
             .stars {
+                padding-top: .5rem;
 
                 i {
                     font-size: 1.7rem;
@@ -383,7 +383,7 @@ section {
 
 
 
-
+/* ======= Contatcs Section/Seção de Contatos ======== */
 
 
 
