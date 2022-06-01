@@ -536,22 +536,28 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ======= Footer Section/Seção de Rodapé ======== */
+.footer{
+    text-align: center;
+    background: linear-gradient(transparent, $black);
+ 
+    .links{
+ 
+       a{
+          margin:1rem;
+       }
+    }
+ 
+    .credit{
+       @include grap-text(2rem);
+       padding-top: 2rem;
+ 
+       span{
+          color:$yellow;
+       }
+    }
+ }
+ 
 
 
 
