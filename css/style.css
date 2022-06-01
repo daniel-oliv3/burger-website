@@ -236,6 +236,33 @@ section {
   color: #aaa;
 }
 
+/* ======= About Section/Seção Sobre Nós ======== */
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.about .image {
+  flex: 1 1 40rem;
+}
+.about .image img {
+  width: 100%;
+}
+.about .content {
+  flex: 1 1 40rem;
+}
+.about .content .title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.about .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 2rem 0;
+}
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {
