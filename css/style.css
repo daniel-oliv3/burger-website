@@ -263,6 +263,24 @@ section {
   color: #aaa;
   padding: 2rem 0;
 }
+.about .content .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.about .content .icons h3 {
+  flex: 1 1 16rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.about .content .icons h3 i {
+  padding-right: 0.5rem;
+  color: #eacf4f;
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {

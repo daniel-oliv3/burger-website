@@ -322,7 +322,21 @@ section {
         }
 
         .icons {
-            
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+
+            h3 {
+                flex: 1 1 16rem;
+                @include title-text(1.7rem);
+
+                i {
+                    padding-right: .5rem;
+                    color: $yellow;
+                }
+            }
         }
     }
 }
