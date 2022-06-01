@@ -40,6 +40,17 @@ section {
   padding: 3rem 9%;
 }
 
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.heading h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 1rem;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -189,6 +200,7 @@ section {
   color: #aaa;
 }
 
+/* ======= Menu Section/Seção de Cardápio ======== */
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {
