@@ -281,6 +281,38 @@ section {
   color: #eacf4f;
 }
 
+/* ======= Reviews Section/Seção de Comentários ======== */
+.reviews .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+.reviews .box-container .box {
+  text-align: center;
+  padding: 2rem;
+}
+.reviews .box-container .box img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.reviews .box-container .box h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.reviews .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 1rem 0;
+}
+.reviews .box-container .box .stars i {
+  font-size: 1.7rem;
+  color: #eacf4f;
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {
