@@ -325,6 +325,12 @@ section {
 .blogs .box-container .box {
   position: relative;
 }
+.blogs .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+.blogs .box-container .box:hover .image .icons {
+  transform: translateY(0);
+}
 .blogs .box-container .box .image {
   height: 25rem;
   overflow: hidden;
@@ -336,6 +342,12 @@ section {
   justify-content: space-between;
   padding: 2rem;
   background: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transform: translateY(10rem);
 }
 .blogs .box-container .box .image .icons a {
   font-size: 1.5rem;
@@ -343,11 +355,30 @@ section {
 }
 .blogs .box-container .box .image .icons a i {
   padding-right: 0.5rem;
+  color: #eacf4f;
+}
+.blogs .box-container .box .image .icons a:hover {
+  color: #eacf4f;
 }
 .blogs .box-container .box .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.blogs .box-container .box .content {
+  text-align: center;
+  padding: 2rem;
+}
+.blogs .box-container .box .content h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.blogs .box-container .box .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 1.5rem 0;
 }
 
 /* ======= Contatcs Section/Seção de Contatos ======== */

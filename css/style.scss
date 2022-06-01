@@ -384,45 +384,79 @@ section {
 
 
 /* ======= Blogs Section/Seção de Blogs ======== */
-.blogs {
+.blogs{
 
-    .box-container {
-        @include grid(31rem);
-
-        .box {
-            position: relative;
-
-            .image {
-                height: 25rem;
-                overflow: hidden;
-                position: relative;
-
-                .icons {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    padding: 2rem;
-                    background: $black;
-
-                    a {
-                        font-size: 1.5rem;
-                        color: $white;
-
-                        i {
-                            padding-right: .5rem;
-                        }
-                    }
+    .box-container{
+       @include grid(31rem);
+ 
+       .box{
+          position: relative;
+ 
+          &:hover .image{
+             img{
+                transform: scale(1.1);
+             }
+             .icons{
+                transform: translateY(0);
+             }
+          }
+ 
+          .image{
+             height: 25rem;
+             overflow:hidden;
+             position: relative;
+ 
+             .icons{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding:2rem;
+                background: $black;
+                position: absolute;
+                bottom:0;
+                left:0; 
+                right:0;
+                z-index: 10;
+                transform: translateY(10rem);
+ 
+                a{
+                   font-size: 1.5rem;
+                   color:$white;
+ 
+                   i{
+                      padding-right: .5rem;
+                      color:$yellow;
+                   }
+ 
+                   &:hover{
+                      color:$yellow;
+                   }
                 }
-
-                img {
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-        }
+             }
+ 
+             img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+             }
+          }
+ 
+          .content{
+             text-align: center;
+             padding:2rem;
+ 
+             h3{
+                @include title-text(2rem);
+             }
+ 
+             p{
+                @include grap-text(1.5rem);
+                padding:1.5rem 0;
+             }
+          }
+       }
     }
-}
+ }
 
 
 
