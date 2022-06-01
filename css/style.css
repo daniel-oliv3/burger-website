@@ -209,6 +209,9 @@ section {
 .menu .box-container .box {
   text-align: center;
 }
+.menu .box-container .box:hover img {
+  transform: translateY(1rem);
+}
 .menu .box-container .box img {
   height: 25rem;
 }

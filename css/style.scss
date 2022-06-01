@@ -261,6 +261,10 @@ section {
         .box {
             text-align: center;
 
+            &:hover img {
+                transform: translateY(1rem);
+            }
+
             img {
                 height: 25rem;
             }
