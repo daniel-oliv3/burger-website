@@ -222,10 +222,20 @@ section {
             height: 7rem;
             width: 7rem;
             line-height: 7rem;
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: $black;
             background: $yellow;
             margin-bottom: 1rem;
+            border-radius: 50%;
+        }
+
+        h3 {
+            padding: 1rem 0;
+            @include title-text(2rem);
+        }
+
+        p {
+            @include grap-text(1.5rem);
         }
     }
 }

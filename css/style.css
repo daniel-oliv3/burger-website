@@ -171,10 +171,22 @@ section {
   height: 7rem;
   width: 7rem;
   line-height: 7rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #000;
   background: #eacf4f;
   margin-bottom: 1rem;
+  border-radius: 50%;
+}
+.service .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.service .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
 }
 
 /* ======= Responsive/Responsividade ======= */
