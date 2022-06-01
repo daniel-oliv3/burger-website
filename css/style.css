@@ -370,9 +370,14 @@ section {
   border: 0.2rem solid rgba(255, 255, 255, 0.3);
   text-transform: none;
   width: 100%;
+  margin: 0.7rem 0;
 }
 .contact .row .form form .box:focus {
   border-color: #eacf4f;
+}
+.contact .row .form form textarea {
+  height: 15rem;
+  resize: none;
 }
 
 /* ======= Responsive/Responsividade ======= */

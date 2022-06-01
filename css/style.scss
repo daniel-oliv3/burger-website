@@ -441,10 +441,16 @@ section {
                     border: $border;
                     text-transform: none;
                     width: 100%;
+                    margin: .7rem 0;
 
                     &:focus {
                         border-color: $yellow;
                     }
+                }
+
+                textarea {
+                    height: 15rem;
+                    resize: none;
                 }
             }
         }
