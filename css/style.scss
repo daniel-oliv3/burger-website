@@ -253,7 +253,37 @@ section {
 
 
 /* ======= Menu Section/Seção de Cardápio ======== */
+.menu {
 
+    .box-container {
+        @include grid(31rem);
+
+        .box {
+            text-align: center;
+
+            img {
+                height: 25rem;
+            }
+
+            .content {
+                padding: 1rem 0;
+
+                .stars {
+                    margin-bottom: 1rem;
+
+                    i {
+                        font-size: 1.7rem;
+                        color: $yellow;
+                    }
+                }
+
+                h3 {
+                    @include title-text(2rem);
+                }
+            }
+        }
+    }
+}
 
 
 
