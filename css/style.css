@@ -316,6 +316,40 @@ section {
   color: #eacf4f;
 }
 
+/* ======= Blogs Section/Seção de Blogs ======== */
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+.blogs .box-container .box {
+  position: relative;
+}
+.blogs .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+.blogs .box-container .box .image .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #000;
+}
+.blogs .box-container .box .image .icons a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.blogs .box-container .box .image .icons a i {
+  padding-right: 0.5rem;
+}
+.blogs .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* ======= Contatcs Section/Seção de Contatos ======== */
 .contact .row {
   display: flex;
@@ -380,7 +414,6 @@ section {
   resize: none;
 }
 
-/* ======= Blogs Section/Seção de Blogs ======== */
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 1200px) {
   .header {

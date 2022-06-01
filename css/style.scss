@@ -383,6 +383,49 @@ section {
 
 
 
+/* ======= Blogs Section/Seção de Blogs ======== */
+.blogs {
+
+    .box-container {
+        @include grid(31rem);
+
+        .box {
+            position: relative;
+
+            .image {
+                height: 25rem;
+                overflow: hidden;
+                position: relative;
+
+                .icons {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 2rem;
+                    background: $black;
+
+                    a {
+                        font-size: 1.5rem;
+                        color: $white;
+
+                        i {
+                            padding-right: .5rem;
+                        }
+                    }
+                }
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+
+
 /* ======= Contatcs Section/Seção de Contatos ======== */
 .contact {
 
@@ -458,7 +501,6 @@ section {
 }
 
 
-/* ======= Blogs Section/Seção de Blogs ======== */
 
 
 
