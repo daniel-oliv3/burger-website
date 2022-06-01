@@ -269,7 +269,7 @@ section {
                 padding: 1rem 0;
 
                 .stars {
-                    margin-bottom: 1rem;
+                    margin-bottom: 2rem;
 
                     i {
                         font-size: 1.7rem;
@@ -279,6 +279,10 @@ section {
 
                 h3 {
                     @include title-text(2rem);
+                }
+
+                .price {
+                    @include grap-text(2rem);
                 }
             }
         }

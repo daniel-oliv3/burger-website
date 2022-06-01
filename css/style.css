@@ -216,7 +216,7 @@ section {
   padding: 1rem 0;
 }
 .menu .box-container .box .content .stars {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .menu .box-container .box .content .stars i {
   font-size: 1.7rem;
@@ -226,6 +226,11 @@ section {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
+}
+.menu .box-container .box .content .price {
+  font-size: 2rem;
+  line-height: 2;
+  color: #aaa;
 }
 
 /* ======= Responsive/Responsividade ======= */
